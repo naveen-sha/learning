@@ -98,11 +98,11 @@
 // console.log('x=',x)
 // y-=2;
 // console.log('y=',y)
-// // comparision operators.......
-// // a==b (print boolean value gives us =ture or false ..)
-// //  in this string also add as a number..
-// // === it gives as well as datatype..
-// // a>b a is greater than b.
+// comparision operators.......
+// a==b (print boolean value gives us =ture or false ..)
+//  in this string also add as a number..
+// === it gives as well as datatype..
+// a>b a is greater than b.
 // a<b a is smaller than/ logical operators.
 // let a=4;
 // let b=9;
