@@ -50,7 +50,7 @@ countvowels();*/
 }
 */
 // foreach loop in arrays..
-let arr= ["nishu","nikku","naveen","nishant"];
+/*let arr= ["nishu","nikku","naveen","nishant"];
 // arr.forEach(function printval(val){
 //     console.log(val);
 // })
@@ -58,6 +58,6 @@ arr.forEach((val,idx,arr) =>{
     console.log(val.toUpperCase(),idx,arr);
 
 })
-
+*/
 
  
