@@ -1,5 +1,5 @@
 //  while loop in continue .......
-/* let i=0;
+ let i=0;
 while(i<=5){
     i++;
     if(i==3){
@@ -9,12 +9,12 @@ while(i<=5){
         
     }
     console.log("naveen",i);
-}*/
-// for loop .......
-/*for(let i=1;i<=10;i++){
+}
+//  for loop .......
+for(let i=1;i<=10;i++){
     console.log("naveen");
-}*/
-/*for(let i=1;i<=10;i++){
+}
+for(let i=1;i<=10;i++){
     if(i==5){
         
         console.log("skipped");
@@ -22,32 +22,32 @@ while(i<=5){
     }
     console.log(i);
 
-}*/
-/*let pocket=""
+}
+var pocket=""
 for(let i=1;i<=10;i++){
     pocket=pocket+i+" ";
     console.log(pocket);
     
-}*/
+}
 // reverse loop ..
-/*let pocket=""
+let pocket=""
 for(let i=5;i>=1;i--){
     pocket=pocket+i;
 
 }
 console.log(pocket);
-*/
+
 // print the factorial of num;
-/*let num=8;
+let num=8;
 let factorial=1;
 for(let i=num;i>=1;i--){
     factorial=factorial*i;
 
 }
 console.log(factorial);
-*/
+
 // find the average of even number between 1 and 50;
-/*let start =1;
+let start =1;
 let end =50;
 let sum =0;
 let count=0;
@@ -58,10 +58,10 @@ for(let i=start;i<=end;i++){
     }
 }
 console.log("the averageis;",sum/count);
-*/
+
 //  break and continue in for loop...
 //  break..
-/*for(let i=1;i<=80;i++){
+for(let i=1;i<=80;i++){
     if(i==11){
 
         
@@ -69,44 +69,44 @@ console.log("the averageis;",sum/count);
     }
     console.log(i,"is got 20% discount");
 }
-*/
+
 // continue...
-/*for(let i=1;i<=80;i++){
+for(let i=1;i<=80;i++){
     if(i==11){
         continue;
     }
     console.log(i,"is got 20% discount");
 }
-*/
+
 // Nested loop...
 // rahul want to eat 10 gol gappas ;
-/*for(let member=1;member<=4;member++){
+for(let member=1;member<=4;member++){
 
 
    for (let golgappas =1;golgappas<=10;golgappas++){
     console.log(member,"member is eating",golgappas,"gol gappas");
    }
 }
-*/
+
 // print 1-5 10 times..
-/* let num1=1
+ let num1=1
 let num2=54
 for(let print=num1;print<=num2;print++){
     for(let no=1;no<=100;no++){
         console.log("the no. is:",no);
     }
 }
-*/
-/* let seeds=1
-let farm=5
+
+ var seeds=1
+var farm=5
 for (let farm=seeds;farm<=10;farm++){
     for( let son=1;son<=10;son++){
         console.log("you work is done sir,give","farm",farm,"seed no",son);
 
     }
 }
-*/
-/* let seeds=1
+
+ let seeds=1
 let farm=5
 
 for (let farm=seeds;farm<=5;farm++){
@@ -119,10 +119,10 @@ for (let farm=seeds;farm<=5;farm++){
     console.log(pocket);
 
 }
-    */
+    
 
 //  printing star patren 5 times..
-/* for(let i=1;i<=5;i++){
+ for(let i=1;i<=5;i++){
   for (let farm=5;farm>=1;farm--){
     let pocket="";
     
@@ -134,8 +134,8 @@ for (let farm=seeds;farm<=5;farm++){
 
 }
 }
-*/
-/* for(let i=1;i<=5;i++){
+
+ for(let i=1;i<=5;i++){
   for (let x=5;x>=1;x--){
     let pocket="";
     
@@ -146,9 +146,9 @@ for (let farm=seeds;farm<=5;farm++){
     console.log(pocket);
 }
 }
-*/
+
 //  little bit tricky.
-/* for(let i =1;i<=5;i++){
+ for(let i =1;i<=5;i++){
 let pocket1=""
 let pocket2=""
 for(let a=1;a<=i;a++){
@@ -160,9 +160,9 @@ for( let b=1;b<=i;b++){
 }
 console.log(pocket2);
 }
-*/
+
 // break and continue............
-/* for (let i=1;i<=5;i++){
+for (let i=1;i<=5;i++){
     for(let a=1;a<=5;a++){
         if(a>i){
             break;
@@ -170,8 +170,8 @@ console.log(pocket2);
         console.log("i=",i,"&","a=",a);
     }
 }
-*/
-/* for (let i=1;i<=5;i++){
+
+ for (let i=1;i<=5;i++){
     for(let a=1;a<=5;a++){
         if(a==i){
             break;
@@ -187,10 +187,10 @@ for (let i=1;i<=5;i++){
         console.log("i=",i,"&","a=",a);
     }
 }
-    */
+    
 //    nested while loops..
 
-/* let a=1
+ let a=1
 while(a<=5){
     let i=1;
 while(i<=5){
@@ -200,4 +200,3 @@ while(i<=5){
 a++
     
 }
-*/
