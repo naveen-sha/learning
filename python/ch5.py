@@ -161,3 +161,9 @@ print("YOUR WORK IS DONE SIR...")
 ## if i>5:
  #    pass
 # print("some useful works ")
+num=1
+num2=7
+num3=num*num2
+if(num3>=num2):{
+  print("naveen")
+}
