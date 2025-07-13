@@ -78,4 +78,126 @@ console.log("the averageis;",sum/count);
     console.log(i,"is got 20% discount");
 }
 */
- 
+// Nested loop...
+// rahul want to eat 10 gol gappas ;
+/*for(let member=1;member<=4;member++){
+
+
+   for (let golgappas =1;golgappas<=10;golgappas++){
+    console.log(member,"member is eating",golgappas,"gol gappas");
+   }
+}
+*/
+// print 1-5 10 times..
+/* let num1=1
+let num2=54
+for(let print=num1;print<=num2;print++){
+    for(let no=1;no<=100;no++){
+        console.log("the no. is:",no);
+    }
+}
+*/
+/* let seeds=1
+let farm=5
+for (let farm=seeds;farm<=10;farm++){
+    for( let son=1;son<=10;son++){
+        console.log("you work is done sir,give","farm",farm,"seed no",son);
+
+    }
+}
+*/
+/* let seeds=1
+let farm=5
+
+for (let farm=seeds;farm<=5;farm++){
+    let pocket=""
+    
+    for( let son=1;son<=10;son++){
+       pocket=pocket+"*";
+
+    }
+    console.log(pocket);
+
+}
+    */
+
+//  printing star patren 5 times..
+/* for(let i=1;i<=5;i++){
+  for (let farm=5;farm>=1;farm--){
+    let pocket="";
+    
+    for( let seed=1;seed<=farm;seed++){
+       pocket=pocket+"*";
+  
+    }
+    console.log(pocket);
+
+}
+}
+*/
+/* for(let i=1;i<=5;i++){
+  for (let x=5;x>=1;x--){
+    let pocket="";
+    
+    for( let y=1;y<=x;y++){
+       pocket=pocket+y;
+
+    }
+    console.log(pocket);
+}
+}
+*/
+//  little bit tricky.
+/* for(let i =1;i<=5;i++){
+let pocket1=""
+let pocket2=""
+for(let a=1;a<=i;a++){
+    pocket1=pocket1+a+" ";
+}
+console.log(pocket1);
+for( let b=1;b<=i;b++){
+    pocket2=pocket2+"*"+" "
+}
+console.log(pocket2);
+}
+*/
+// break and continue............
+/* for (let i=1;i<=5;i++){
+    for(let a=1;a<=5;a++){
+        if(a>i){
+            break;
+        }
+        console.log("i=",i,"&","a=",a);
+    }
+}
+*/
+/* for (let i=1;i<=5;i++){
+    for(let a=1;a<=5;a++){
+        if(a==i){
+            break;
+        }
+        console.log("i=",i,"&","a=",a);
+    }
+}
+for (let i=1;i<=5;i++){
+    for(let a=1;a<=5;a++){
+        if(a==i){
+            continue;
+        }
+        console.log("i=",i,"&","a=",a);
+    }
+}
+    */
+//    nested while loops..
+
+/* let a=1
+while(a<=5){
+    let i=1;
+while(i<=5){
+    console.log(a,"  & ",i);
+    i++
+}
+a++
+    
+}
+*/
