@@ -78,4 +78,4 @@ console.log("the averageis;",sum/count);
     console.log(i,"is got 20% discount");
 }
 */
-
+ 
