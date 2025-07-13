@@ -1,5 +1,5 @@
 //  while loop in continue .......
- let i=0;
+ /* let i=0;
 while(i<=5){
     i++;
     if(i==3){
@@ -197,6 +197,64 @@ while(i<=5){
     console.log(a,"  & ",i);
     i++
 }
-a++
-    
+a++ 
+} 
+// chatgpt nested loop question.....................
+
+// ques 1....
+ for(let i=1;i<=5;i++){
+    let ans="";
+    for(let a=1;a<=5;a++){
+        ans =ans+"   "+"*";
+
+    }
+    console.log(ans);
+} 
+// ques 2.......
+     for(let i=1;i<=4;i++){
+    let str="";
+    for(let a=1;a<=i;a++){
+        str=str+"*";
+    }
+    console.log(str);
 }
+    // ques 3.........
+ for(let i=1;i<=4;i++){
+    let no="";
+    for(let a=1;a<=i;a++){
+        no=no+a;
+    }
+    console.log(no)
+}
+// ques 4
+for(let i=1;i<=10;i++){
+    
+    for(let a=1;a<=10;a++){
+        product=i*a;
+
+    }
+    console.log(product);
+}
+//  ques 5
+for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 3; j++) {
+    console.log(`(${i}, ${j})`);
+  }
+}
+//  ques 6 ..
+let n = 5;
+for (let i = 1; i <= n; i++) {
+  let row = "";
+  for (let j = 1; j <= n - i; j++) {
+    row += " ";
+  }
+  for (let k = 1; k <= 2 * i - 1; k++) {
+    row += "*";
+  }
+  console.log(row);
+}
+*/
+
+
+
+
