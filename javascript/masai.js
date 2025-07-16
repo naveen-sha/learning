@@ -273,6 +273,9 @@ for (let i = 0; i < n; i++) {
   console.log(row);
 }
 */
+// today  i learn about array..
+
+
 
 
 
