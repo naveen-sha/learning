@@ -273,8 +273,27 @@ for (let i = 0; i < n; i++) {
   console.log(row);
 }
 */
-// today  i learn about array..
+// today  i learn about array......
+//  array are data structure used to store any kind of data..
 
+/* let friends =["nikku","nishu","prateek","hacker"];
+console.log(friends  [3] );
+*/
+/* let friends =["nikku","nishu","prateek","hacker"];
+console.log(friends  [3] );
+for (idx=0;idx<=4;idx++){
+    console.log(friends[idx])
+}
+    */
+/* let num =["nikku","nishu","prateek","hacker","suiii","broooo"];
+for(let i =0;i<=num.length-1;i++){
+    console.log(num[i])
+}
+*/
+// push & pop in array..
+
+ let friends =["nikku","nishu","prateek","hacker"];
+console.log()
 
 
 
