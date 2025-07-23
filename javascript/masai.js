@@ -292,9 +292,77 @@ for(let i =0;i<=num.length-1;i++){
 */
 // push & pop in array..
 
- let friends =["nikku","nishu","prateek","hacker"];
-console.log()
+ /* let friends =["nikku","nishu","prateek","hacker"];
+ friends.push("nikhil");
+console.log(friends);
+*/
+// activity
+/* let arr =[];
+ arr.push(1);
+ arr.push(2);
+ arr.push(3);
+ arr.push(16,84,3);
+ let start_index=0;
+ let end_index=arr.length-1;
+ for(let idx=start_index;idx<=end_index;idx++){
+    console.log(arr[idx]); 
+ }
+*/
+// reverse maner; 
+/* let arr =[];
+ arr.push(1);
+ arr.push(2);
+ arr.push(3);
+ arr.push(16,84,3);
+ let start_index=0;
+ let end_index=arr.length-1;
+ for(let idx=end_index;idx<=start_index;idx--){
+    console.log(arr[idx]); 
+ }
+*/
+// pop ..............
+/* let arr =[];
+ arr.push(1);
+ arr.push(2);
+ arr.push(3);
+ arr.push(16,84,3);
+ arr.pop();
+ arr.pop();
+console.log(arr);
+*/
+/* let numbers =[1,2,3,4,5,6,88];
+for (let i=1;i<=3;i++){
+    numbers.pop();
 
+}
+console.log(numbers);
+*/
+// how to update the element 
+/* let numbers =[1,2,3,4,5,6,88];
+numbers[4]=9;
+console.log(numbers);
+numbers[3]=0;
+console.log(numbers);*/
+// break and continue in arrays....
+/* let movies=["bahubali","kgf","ironmain","endgame","infinity war"];
+for(let i=0;i<=movies.length-1;i++){
+    if(i==3){
+        continue;
+    }
+    console.log(movies[i]);
+}
+    */
+   /* let movies=["bahubali","kgf","ironmain","endgame","infinity war"];
+for(let i=0;i<=movies.length-1;i++){
+    if(i==3){
+        break;
+    }
+    console.log(movies[i]);
+}
+*/
+//  print last three movies .
+let movies=["bahubali","kgf","ironmain","endgame","infinity war"]; 
+  
 
 
 
