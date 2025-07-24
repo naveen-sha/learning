@@ -362,6 +362,11 @@ for(let i=0;i<=movies.length-1;i++){
 */
 //  print last three movies .
 let movies=["bahubali","kgf","ironmain","endgame","infinity war"]; 
+ 
+for (let i=movies.length-3;i<=movies.length-1;i++){
+    console.log(movies[i]);
+}
+
 
   
 
