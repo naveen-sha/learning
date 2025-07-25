@@ -385,9 +385,26 @@ for (let i=0;i<=arr.length-1;i++){
     summ=summ+arr[i];
 }
  console.log(summ); */
-
-
- 
+// calculate maximum  value in the array ;
+/*
+let arr=[1,2,4,5,7,9,83];
+let copy=arr[0];
+for (let i=0;i<=arr.length-1;i++){
+    if(arr[i]>copy){
+        copy=arr[i];
+    }
+}
+console.log(copy);
+*/
+ /* let arr=[1,-2,4,5,7,-9,-83];
+// let copy=arr[0]; small vale - infinity.
+for (let i=0;i<=arr.length-1;i++){
+    if(arr[i]>copy){
+        copy=arr[i];
+    }
+}
+console.log(copy);
+ */
 
 
  
