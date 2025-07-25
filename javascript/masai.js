@@ -379,12 +379,16 @@ for (let i=start;i<=end;i++){
 }
 */
 // add all the elements ...
-let  arr =[1,2,3,4,5,6,7];
+/* let  arr =[1,2,3,4,5,6,7];
 let summ=0;
 for (let i=0;i<=arr.length-1;i++){
     summ=summ+arr[i];
 }
- console.log(summ);
+ console.log(summ); */
+
+ 
+
+
  
  
  
