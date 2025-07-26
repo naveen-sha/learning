@@ -413,6 +413,10 @@ for(let i=0;i<=elements.length-1;i++){
     
 }
 console.log(hack);
+//  strings ...................
+
+
+
 
 
 
