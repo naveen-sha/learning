@@ -406,14 +406,17 @@ for (let i=0;i<=arr.length-1;i++){
 console.log(copy);
  */
 // sum of all elements ..
-let elements =[2,4,6,8,6,4];
+ /* let elements =[2,4,6,8,6,4];
 let sum=0;
 for(let i=0;i<=elements.length-1;i++){
    hack =sum+=elements[i];
     
 }
 console.log(hack);
+*/
+
 //  strings ...................
+
 
 
 
