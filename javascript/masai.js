@@ -414,8 +414,17 @@ for(let i=0;i<=elements.length-1;i++){
 }
 console.log(hack);
 */
-
 //  strings ...................
+// strings are similer to the arrays..
+// real life example of strings 
+let pass="nikki sharma";
+if(pass.length<7){
+    console.log("bhai/bahen isa pass le jiske idx ki lambai 7 t jyada ho");
+
+}else{
+    console.log("ho gya bhai/bahen sign up");
+
+}
 
 
 
