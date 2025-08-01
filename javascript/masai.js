@@ -417,7 +417,7 @@ console.log(hack);
 //  strings ...................
 // strings are similer to the arrays..
 // real life example of strings 
-let pass="nikki sharma";
+/* let pass="nikki sharma";
 if(pass.length<7){
     console.log("bhai/bahen isa pass le jiske idx ki lambai 7 t jyada ho");
 
@@ -425,6 +425,18 @@ if(pass.length<7){
     console.log("ho gya bhai/bahen sign up");
 
 }
+    */
+//  find the first non repeating number ..
+let text="aabbccddffsggeddxx";
+let result=null;
+for (let i=0;i<text.length;i++){
+    let sentence=text[i];
+    if(text.indexOf(sentence)===text.lastIndexOf(sentence)){
+        result=sentence;
+        break;
+    }
+}
+console.log("the result is:",result);
 
 
 
