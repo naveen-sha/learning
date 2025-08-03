@@ -427,7 +427,7 @@ if(pass.length<7){
 }
     */
 //  find the first non repeating number ..
-let text="aabbccddffsggeddxx";
+/* let text="aabbccddffsggeddxx";
 let result=null;
 for (let i=0;i<text.length;i++){
     let sentence=text[i];
@@ -437,8 +437,51 @@ for (let i=0;i<text.length;i++){
     }
 }
 console.log("the result is:",result);
+*/
+ /* let game ="spider man";
+for(let i=0;i<game.length;i++){
+    console.log(game[i]);
+}
+    */
+//    arrays and strings are same.. in many ways
+// this is the difference between arrays and strings.
+/* 
+* in array we can do push and pop..and update any value by helping of index..
+* in stings no push no pop no update the value.
+*/
+/* let string ='hero hira lal';
+let jhola="";
+for(let i=0;i<=string.length-2;i++){
+    if(i==4){
+        continue;
 
+    }
+    jhola+=string[i];
+    
+}
+console.log(jhola);
+*/
+//  reverse the string.
+/* let string ='hero hira lal';
+let jhola="";
+for(let i=string.length-1;i>=0;i--){
+    if(i==4){
+        continue;
 
+    }
+    jhola+=string[i];
+    
+}
+console.log(jhola);
+*/
+/* let stri="jimmy parker";
+let arr =[];
+for(let i=0;i<=stri.length-1;i++){
+    arr.push(stri[i]);
+}
+arr[5]="*";
+console.log(arr);
+*/
 
 
 
