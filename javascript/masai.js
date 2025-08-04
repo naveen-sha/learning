@@ -482,9 +482,47 @@ for(let i=0;i<=stri.length-1;i++){
 arr[5]="*";
 console.log(arr);
 */
+// to convert _to @ ..in naveen _sharma.
+/* let string="naveen_sharma";
+let jhola="";
+for (let i=0;i<string.length;i++){
+    if(i==6){
+        jhola=jhola+"@";
 
+    }else{
+        jhola=jhola+string[i];
+    }
+}
+console.log(jhola);
+*/
+// to check the first chacter of each element are same..
+/* let naam=["nikku","arjun","aditya","nishu","tane","alex"];
 
+let count =0;
+for(let i=0;i<naam.length;i++){
+    let ns=naam[i];
+    if(ns[0]=="a"){
+        count++;
 
+    }
+
+}
+console.log(count)
+*/
+// to check each and every character of strings
+/* let naam=["nikku","arjun","aditya","nishu","tane","alex"];
+let count=0;
+for(let i=0;i<naam.length;i++){
+    let strings=naam[i];
+    for(let j=0;j<strings.length;j++){
+        if(strings[j]=="a"||strings[j]=="n"){
+            count++;
+            break;
+        }
+    }
+}
+console.log(count);
+*/
 
 
 
