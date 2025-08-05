@@ -549,14 +549,45 @@ while(n<10){
 nishu(8467,4758)
 */
 // return statement .......
-function nikku(a,b){
+ /* function nikku(a,b){
     return a/b;
 }
 let nishu=nikku(75,57);
 console.log(nishu);
+*/
+// suiiiiiiiiiiiiiiiiii
+/* function nishu(a,b){
+    return a-b;
+}
 
- 
- 
+function nishant(n){
+    return n/3;
+}
+function nikku(ns){
+    console.log(ns*6);
+}
+let step1=nishu(56,48);
+let step2=nishant(step1);
+nikku(step2);
+*/
+/* function nikku(a,b){
+    return a*b;
+}
+ function nikhil(n){
+    return n/9;
+ }
+ function naveen(s){
+    console.log(s-7);
+ }
+let step=nikku(7,9);
+let step2=nikhil(step);
+naveen(step2);
+*/
+// function ke block ke ander vala element local hota hai or bhar vala globle...
+
+
+
+  
  
 
   
