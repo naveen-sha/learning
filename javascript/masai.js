@@ -525,9 +525,35 @@ for(let i=0;i<naam.length;i++){
 console.log(count);
 */
 // .......................................................function.............................................
-
-
-
+// this is hard coded code..
+/* function nishu_function9(){
+    let name ="nishu";
+    for(let i=0;i<name.length;i++){
+        console.log(name[i])
+    }
+}
+let n=0;
+while(n<10){
+         console.log( nishu_function9());
+    if(n==4){
+    console.log("suiiiiiiiii");
+    break;
+    }
+    n++;
+}
+    */
+// this is generic function code..
+/* function nishu(a,b){
+    console.log(a*b);
+}
+nishu(8467,4758)
+*/
+// return statement .......
+function nikku(a,b){
+    return a/b;
+}
+let nishu=nikku(75,57);
+console.log(nishu);
 
  
  
