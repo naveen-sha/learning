@@ -279,6 +279,7 @@ for (let i = 0; i < n; i++) {
 /* let friends =["nikku","nishu","prateek","hacker"];
 console.log(friends  [3] );
 */
+
 /* let friends =["nikku","nishu","prateek","hacker"];
 console.log(friends  [3] );
 for (idx=0;idx<=4;idx++){
@@ -513,7 +514,7 @@ console.log(count)
 /* let naam=["nikku","arjun","aditya","nishu","tane","alex"];
 let count=0;
 for(let i=0;i<naam.length;i++){
-    let strings=naam[i];
+   let strings=naam[i];
     for(let j=0;j<strings.length;j++){
         if(strings[j]=="a"||strings[j]=="n"){
             count++;
@@ -523,6 +524,8 @@ for(let i=0;i<naam.length;i++){
 }
 console.log(count);
 */
+// .......................................................function.............................................
+
 
 
 
