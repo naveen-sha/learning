@@ -583,7 +583,18 @@ let step=nikku(7,9);
 let step2=nikhil(step);
 naveen(step2);
 */
-// function ke block ke ander vala element local hota hai or bhar vala globle...
+// function ke block ke ander vala element local hota hai or bhar vala globle..
+/* function check(){
+    let num=409;
+    if(num%5==0){
+        console.log("this is even");
+    } else{
+        console.log("this is odd");
+    }
+}
+check();
+*/
+
 
 
 
