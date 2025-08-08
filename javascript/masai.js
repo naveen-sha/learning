@@ -595,7 +595,9 @@ naveen(step2);
 check();
 */
 //  now i learn inbuilt function ..
-// 
+
+
+
 
 
 
