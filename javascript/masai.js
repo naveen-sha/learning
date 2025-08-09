@@ -594,7 +594,67 @@ naveen(step2);
 }
 check();
 */
+// some problems solving practice ...
+/* for(let i=0;i<=50;i++){
+    if(i%3==0){
+        continue;
+    }
+    console.log("i : ",i);
+
+}
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //  now i learn inbuilt function ..
+//  inbuilt function is that like (.length or .push )its perform specific task ..
 
 
 
