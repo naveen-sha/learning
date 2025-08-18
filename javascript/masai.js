@@ -603,61 +603,29 @@ check();
 
 }
     */
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //  now i learn inbuilt function ..
 //  inbuilt function is that like (.length or .push )its perform specific task ..
+/* function check(num){
+    
+    if(num%2==0){
+        console.log("this is even:true");
 
 
+    }else{
+        console.log("this is not :false");
+    }
+
+}
+check(num=4);
+*/
+// using the even/odd function calculate the sum of even numbers in the array.
+let arr=[1,2,3,4,5,6,7,8,9];
+let box=0;
+for(let i=0;i<arr.length-1;i++){
+    let dabba=box+arr[0];
+
+}
+console.log(dabba);
 
 
 
