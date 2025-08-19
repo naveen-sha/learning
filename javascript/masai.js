@@ -609,8 +609,7 @@ check();
     
     if(num%2==0){
         console.log("this is even:true");
-
-
+        
     }else{
         console.log("this is not :false");
     }
