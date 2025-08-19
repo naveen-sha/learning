@@ -618,13 +618,77 @@ check();
 check(num=4);
 */
 // using the even/odd function calculate the sum of even numbers in the array.
-let arr=[1,2,3,4,5,6,7,8,9];
-let box=0;
-for(let i=0;i<arr.length-1;i++){
-    let dabba=box+arr[0];
+/* function check(num){
+    
+    if(num%2==0){
+       return true;
+        
+    }else{
+        return false;
+    }
 
 }
-console.log(dabba);
+
+let arr=[1,2,3,4,5,6,7,8,9,2,4];
+let box=0;
+for(let i=0;i<arr.length-1;i++){
+    if(check(arr[i])==true){
+        box=box+arr[i];
+    }
+}
+console.log(box);
+let box2=0;
+for(let i=0;i<arr.length-1;i++){
+    if(check(arr[i])!==true){
+        box2=box2+arr[i];
+    }
+}
+console.log(box2);
+*/
+// write a function to reverse the string..
+/* function reverse_name(str){
+let thaili=""
+for(let i=str.length-1;i>=0;i--){
+    thaili=thaili+str[i];
+
+}
+return thaili;
+};
+console.log(reverse_name("nikku"));
+// for palindrom names...
+function reverse_name(str){
+let thaili=""
+for(let i=str.length-1;i>=0;i--){
+    thaili=thaili+str[i];
+
+}
+return thaili;
+};
+console.log(reverse_name("racecar"));
+*/
+function reverse_name(str){
+let thaili=""
+for(let i=str.length-1;i>=0;i--){
+    thaili=thaili+str[i];
+
+}
+return thaili;
+}
+let namee="nikku";
+let rev_str=reverse_name(namee)
+function check_palindrom(a,b){
+if(a==b){
+    console.log("this is a palindrom");
+}else{
+    console.log("this is not a palindrom");
+}
+}
+check_palindrom(namee,rev_str);
+// this will work only stings.
+
+
+
+
 
 
 
