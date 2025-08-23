@@ -699,6 +699,8 @@ console.log(product);
  let arr1=[23,4,32,4,5654,4,3,3];
 let arr2=[3,2,4,5,7,9,4,6];
 multiply(arr1,arr2);
+// inbuilt function is that which make your task easy..........
+ 
 
 
 
