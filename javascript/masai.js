@@ -684,9 +684,21 @@ if(a==b){
 }
 }
 check_palindrom(namee,rev_str);
-// this will work only stings.
+// this will work  for only stings.
+// write the function to multiply elements of two arrays and store the product in a new array
+function multiply(a,b){
+    
+let product=[];
+for(let i=0;i<arr1.length;i++){
+    let multiply=a[i]*b[i];
+    product.push(multiply);
+}
+console.log(product);
 
-
+}
+ let arr1=[23,4,32,4,5654,4,3,3];
+let arr2=[3,2,4,5,7,9,4,6];
+multiply(arr1,arr2);
 
 
 
