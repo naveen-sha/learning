@@ -700,6 +700,39 @@ console.log(product);
 let arr2=[3,2,4,5,7,9,4,6];
 multiply(arr1,arr2);
 // inbuilt function is that which make your task easy..........
+let x="12";
+let y="75";
+console.log(x+y);
+let num1=Number(x);
+let num2=Number(y);
+console.log(num1+num2);
+// in this number is a inbuit funtion..
+// we can only convert str numbers..
+let str=x.toString();
+let str1=y.toString();
+console.log(typeof(str),typeof(str1));
+// documentation is the source of information about the tech that you want to use written by the developer.
+// create own split inbuilt function..
+let string='the nishu is a that kind of animal that  has no brain.'
+function mysplit(a){
+
+
+let bag="";
+let arr=[];
+for(let i=0;i<a.length;i++){
+    if(a[i]!=" "){
+        bag=bag+string[i];
+
+    }else{
+        arr.push(bag);
+        bag="";
+    }
+}
+arr.push(bag);
+
+console.log(arr);
+}
+mysplit(string)
  
 
 
