@@ -733,7 +733,7 @@ arr.push(bag);
 console.log(arr);
 }
 mysplit(string)
- 
+
 
 
 
