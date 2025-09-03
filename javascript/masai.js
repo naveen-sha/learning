@@ -666,7 +666,7 @@ return thaili;
 };
 console.log(reverse_name("racecar"));
 */
-function reverse_name(str){
+/* function reverse_name(str){
 let thaili=""
 for(let i=str.length-1;i>=0;i--){
     thaili=thaili+str[i];
@@ -733,11 +733,62 @@ arr.push(bag);
 console.log(arr);
 }
 mysplit(string)
+*/
+// in function if we return a value then after console.log anything or anything it does not work
+//  arrow function...
+let sum=(x,y)=>{
+    return x+y;
+}
+let suiii=sum(5,7);
+console.log(suiii)
+// practice ..
+/* function check_vovels(str){
+    let count=0;
+    for(let char of str){
+        if(
+            char==="a"||
+            char==="e"||
+            char==="i"||
+            char==="0"||
+            char==="u"
+        ) {
+            count++;
+        }
+    }
+    console.log(count);
+
+
+}
+check_vovels("naveen")*/
+/* let check_vovels=(str)=>{
+     let count=0;
+    for(let char of str){
+        if(
+            char==="a"||
+            char==="e"||
+            char==="i"||
+            char==="0"||
+            char==="u"
+        ) {
+            count++;
+        }
+    }
+    console.log(count);
+}
+check_vovels("nishant") */
+// for each function..
+let arr=["pune","delhi","mumbai"];
+arr.forEach(
+    (val,idx,arr) =>{
+    console.log(val.toUpperCase(),idx,arr);
+}
+)
 
 
 
 
 
+ 
 
 
 
