@@ -736,7 +736,7 @@ mysplit(string)
 */
 // in function if we return a value then after console.log anything or anything it does not work
 //  arrow function...
-let sum=(x,y)=>{
+/* let sum=(x,y)=>{
     return x+y;
 }
 let suiii=sum(5,7);
@@ -777,12 +777,12 @@ check_vovels("naveen")*/
 }
 check_vovels("nishant") */
 // for each function..
-let arr=["pune","delhi","mumbai"];
+/* let arr=["pune","delhi","mumbai"];
 arr.forEach(
     (val,idx,arr) =>{
     console.log(val.toUpperCase(),idx,arr);
 }
-)
+)*/
 
 
 
