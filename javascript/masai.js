@@ -783,6 +783,32 @@ arr.forEach(
     console.log(val.toUpperCase(),idx,arr);
 }
 ) */
+// squares of all numbers
+
+/* let nums=[2,3,4,5,6];
+ 
+nums.forEach((element) => {
+    console.log(element*element);
+});
+*/
+// imp array method..
+// map method..
+// reduce method.
+// filter method.
+// practice question..
+/* let marks = [55,97,68,90,98,79,69,91];
+let filteredmarks =marks.filter((fil)=>{
+    return fil>=90;
+})
+console.log(filteredmarks);
+*/
+prompt("enter a number: ");
+let arr =[];
+for(let i=0;i<=navigator;i++){
+    
+}
+
+
 
 
 
