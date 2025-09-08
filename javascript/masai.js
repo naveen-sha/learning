@@ -802,11 +802,7 @@ let filteredmarks =marks.filter((fil)=>{
 })
 console.log(filteredmarks);
 */
-prompt("enter a number: ");
-let arr =[];
-for(let i=0;i<=navigator;i++){
-    
-}
+
 
 
 
