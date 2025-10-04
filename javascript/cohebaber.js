@@ -33,10 +33,11 @@ console.log(finalans.length);
 let hlo="ke\\ haal\\ chal\\ chore";
 let word=hlo.split('\\');
 console.log(word);*/
-function getmyname(firstname,lastname){
+/* function getmyname(firstname,lastname){
 let fullname=firstname+" "+lastname;
 return fullname;
 
 }
 let fullname=getmyname("nikku","sharma");
 console.log("fullname:",fullname);
+*/
