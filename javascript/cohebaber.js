@@ -160,6 +160,18 @@ let ans=arr.find((num)=>{
 })
 console.log(ans);
 // its give me first find value..*/
+// foreach loop..
+/* let arr=[1,2,3,4,5];
+// traditional loop
+let length=arr.length
+for(let index=0;index<=length-1;index++){
+    console.log(arr[index])
+
+}
+// arr.forEach((value,index)=>{
+//     console.log("number:",value,"index:",index);
+// })
+*/
 
 
 
