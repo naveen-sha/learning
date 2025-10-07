@@ -80,12 +80,12 @@ shift--remove first left element
 unshift--add first left element 
 slice--remove the part form arry and give last element of remove (1,8)strt idx and end idx.
 splice--change content like insert ,replace,remove in array..
-map--
-filter--
-reduce--
-sort--
-indexof--
-find--
+map--square of all element /change in element .
+filter--choose element .
+reduce--add all elements.
+sort--give asscending/desscending order in array .
+indexof--it gives index of element .
+find--it find the single element .
 */
 /* let arr=new Array(1,23,4,5,"naveen",true);
 arr.push("sharma");
@@ -166,34 +166,94 @@ console.log(ans);
 let length=arr.length
 for(let index=0;index<=length-1;index++){
     console.log(arr[index])
-
-}
-// arr.forEach((value,index)=>{
-//     console.log("number:",value,"index:",index);
-// })
+    // arr.forEach((value,index)=>{
+        //     console.log("number:",value,"index:",index);
+        // });
+       /* let numbers = [5, 12, 8, 20, 7, 15];
+       
+       // FILTER → function tells which numbers to keep
+       let filtered = numbers.filter((num) =>{
+         return num >15;
+       });
+       
+       // MAP → function tells how to change each number
+       let squared = filtered.map((num)=> {
+         return num * num;
+       });
+       
+       // REDUCE → function tells how to combine values
+       let sum = squared.reduce((acc, curr) =>{
+         return acc + curr;
+       }, 0);
+       
+       console.log(sum);
+   }*/
+//   thats how reduce method works.
+/*let arr=[1,2,3,4,5,7,90,4];
+let sum=arr.reduce((acc,curr)=>{
+    return acc+curr;
+},0)
+console.log(sum);
 */
+ /* let arr1=[1,2,4,6,4,2,41,64,5,8];
+arr1.sort();
+console.log(arr1);
 
+let arr = [1, 2, 4, 6, 4, 2, 41, 64, 5, 8];
 
+arr.sort((a, b) => a- b);
 
+console.log(arr);
+*/
+/* let arr=[1,2,3,4,5,6,7];
+console.log(arr.indexOf(4));*/
 
+/* let arr=[1,2,3,4,5,6,7];
+let ans=arr.find((num)=>{
+    return num>=5;
+})
+console.log(ans);*/
+/* let arr=[10,20,30,40];
+arr.forEach((value,index)=>{
+    console.log("number:",value,"index",index);
+});
+*/
+// for in loop......................
 
+/* let obj={
+    name:"naveen",
+    age:17,
+    height:5.9,
+    weight:66,
+    greet : function(){
+        console.log("or bhai sunade");
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+};
+for(let key in obj){
+    console.log(key," ",obj[key]);
+}
+      */
+// for of loop.............
+/* let arr=[10,20,30,40,50];
+for(let keys of arr){
+    console.log(keys);
+}
+let char="naveensharma ";
+for(let name of char){
+    console.log(name);
+}
+    */
+//  arrays with functions..
+/* let arr=[10,20,30,40,50];
+function getsum(arr){
+    let sum=0;
+    arr.forEach(element => {
+        sum=sum+element;
+    });
+    return sum;
+}
+let totsum=getsum(arr);
+console.log(totsum);
+*/
