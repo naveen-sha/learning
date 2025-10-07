@@ -257,3 +257,35 @@ function getsum(arr){
 let totsum=getsum(arr);
 console.log(totsum);
 */
+
+/*let data=[
+     {name: "John", score: 85},
+  {name: "Jane", score: 92},
+  {name: "Bob", score: 75}
+];
+
+data.forEach(element => {
+    console.log(data);
+});
+/*console.log(data);
+let array=["apple","banana","chiku"];
+array.forEach(element => {
+    console.log(element.toUpperCase());
+});
+let sum=[10,20,30,40];
+sum.forEach(element => {
+    sum=element+sum;
+    console.log(element);
+});*/
+/* let arr=[1,2,3,4,56];
+let square=[];
+arr.forEach(element => {
+   square.push(element*element);
+});
+console.log(square)
+*/
+/* let array=[1,3,6,8,10];
+array.forEach(element => {
+    console.log(array.length);
+});
+*/
