@@ -312,7 +312,57 @@ for (let i = 1; i <= 10; i++) {
   else console.log(i);
 }
   */
- 
+/* function printnumber(num){
+    console.log("print the number:",num);
+
+}
+printnumber(999);
+*/
+/* function getsum(a,b,c){
+    let sum=a+b+c;
+    return sum;
+}
+let ans=getsum(1,4,7);
+console.log(ans);*/
+/* function getmultiplication(a,b){
+    return a*b;
+
+}
+console.log(getmultiplication(67,4));
+*/
+/* let getmultiplication=function(a,b){
+    return a*b;
+}
+let ans = getmultiplication(3,5);
+console.log(ans);
+*/
+// arrow function;
+/* let getexp=(x,y)=>{
+    let ans=x**y
+    return ans;
+};
+console.log(getexp(6,3));
+*/
+// function call stack & hoisting.........
+// console.log(age);
+//  var age=17; give undefined 
+// console.log(age); give me error.
+// let age=17
+// variable hoisting .. only in  var 
+// function hoisting.. only in simpel function..
+/* console.log(hoisting(5,6));
+
+function hoisting(c,d){
+    return c*d;
+};*/
+// class hoisting ..
+// class --> its like a blueprint.. and its like house blue print and after finish the house it is called object.
+class insan{
+    
+}
+const object1=new insan();
+// function call stack..
+// stack--> data structure --> (container)-->lifo(last in first out)
 
 
 
@@ -324,3 +374,60 @@ for (let i = 1; i <= 10; i++) {
 
 
 
+
+
+
+
+
+// why function known as first class citizens because in javascript it play most of the valueable role..
+
+/* function greetme(greet,fulname){
+    console.log('hello ke hal chal',fulname);
+    greet();
+}
+function greet(){
+    console.log("naveen");
+}
+greetme(greet,"naveen sharma");
+*/
+// nested function..
+/* function solve(number){
+    return function (number){
+        return number*number;
+    }
+}
+let ans=solve(7);
+let finalans=ans(10);
+console.log(finalans);
+*/
+// data structure in function.
+/* const arr=[
+    function(a,b){
+        return a+b;
+
+    },
+    function(a,b){
+        return a-b;
+
+    },
+    function(a,b){
+        return a*b;
+
+    }
+];
+let first=arr[1];
+let ans=first(9,9);
+console.log(ans)
+*/
+// in obejct..
+/* let obejct={
+    agr:24,
+    wt:66,
+    ht:56,
+    greet:()=>{
+        console.log("hello duniya");
+    }
+}
+console.log(obejct.agr);
+obejct.greet();
+*/
