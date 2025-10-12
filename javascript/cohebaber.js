@@ -357,25 +357,12 @@ function hoisting(c,d){
 };*/
 // class hoisting ..
 // class --> its like a blueprint.. and its like house blue print and after finish the house it is called object.
-class insan{
+/* class insan{
     
 }
 const object1=new insan();
 // function call stack..
-// stack--> data structure --> (container)-->lifo(last in first out)
-
-
-
-
-
-
-
-
-
-
-
-
-
+// stack--> data structure --> (container)-->lifo(last in first out);
 
 
 
@@ -431,3 +418,6 @@ console.log(ans)
 console.log(obejct.agr);
 obejct.greet();
 */
+
+
+
