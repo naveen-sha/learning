@@ -1,2 +1,2 @@
-# Hi, I'm Naveen Sharma (NaveenSh-786)
+# Hi, I'm Naveen Sharma (NaveenSh-786) a Computer Science student and web developer.
 this is my learning repo...
