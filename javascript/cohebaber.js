@@ -418,6 +418,49 @@ console.log(ans)
 console.log(obejct.agr);
 obejct.greet();
 */
+// temporal deadzone ,variable scoping...
+// variable scoping..
+// global scoping..
+/* var age =27;
+console.log(age);
+{
+    console.log(age);
 
+}
 
+if(true){
+    console.log(age);
 
+}
+
+for(let i=0;i<2;i++){
+    console.log(age);
+}
+function seynamaste(){
+    console.log("hi",age);
+}
+seynamaste();
+*/
+// function scoping...
+/* function seynamaste(){
+    const name="nishu";
+    console.log("namaste",name);
+}
+seynamaste();
+*/
+// access only in function..
+// block scoping..
+/* {
+    var heap=33;
+
+}
+console.log(heap);*/
+// give me error in use of let,const
+// temporal deadzone...
+/* console.log(marks);
+console.log("babber");
+console.log("love");
+const marks =100;
+console.log(marks);
+// this is deadzone..
+*/
