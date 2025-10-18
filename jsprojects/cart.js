@@ -78,7 +78,7 @@ addToCart(2);
 addToCart(1);
 showCart();
 
-updateQuantity(1, );
+updateQuantity(5, 9);
 showCart();
 
 removeFromCart(2);
