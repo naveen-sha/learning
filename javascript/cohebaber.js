@@ -462,5 +462,5 @@ console.log("babber");
 console.log("love");
 const marks =100;
 console.log(marks);
-// this is deadzone..
-*/
+// this is deadzone..*/
+
