@@ -463,4 +463,31 @@ console.log("love");
 const marks =100;
 console.log(marks);
 // this is deadzone..*/
+// doing some fun with making logic....
+/* let nishu ={
+    sirname:"sharma",
+    class:"11th",
+    section:"A",
+    age:16,
+    height:"5ft and 9 inches",
+    weight:"66kg",
+    skill:"quick angry"
+
+
+};
+if(nishu.section=="A"){
+
+    for(let i=nishu.weight;i==nishu.weight;i++){
+       for(let x=nishu.skill;x==nishu.skill;x++){
+        if(nishu.height=="5ft and 9 inches"&nishu.age==15){
+            console.log("nothing to say that");
+        }else{
+            console.log("nikku is the knight king");
+        }
+
+       }
+    }
+
+};
+*/
 
