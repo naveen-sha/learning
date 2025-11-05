@@ -1,40 +1,192 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>websites for nikku jaise balak</title>
-    <link rel="stylesheet" href="css/project.css">
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Snake Game 🐍</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
+    body {
+      margin: 0;
+      height: 100vh;
+      background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00ffcc;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    #scoreBoard {
+      margin: 10px 0;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    canvas {
+      border: 3px solid #00ffcc;
+      border-radius: 10px;
+      background: #0d1117;
+      box-shadow: 0 0 20px rgba(0, 255, 204, 0.4);
+    }
+
+    button {
+      margin-top: 15px;
+      background: #00ffcc;
+      color: #0d1117;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background: #00ffaa;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
 <body>
-    <header id="suii">
-        <h1><center> STUDENT RESOURCES
-        </center></h1>
-        <P> <H2> <center>welcome to our website.Here you find  valuable content for your journey of coding.</center></H2></P>
-    </header>
-    <main>
-       <H3><center>Sign Up For Your Coding Journey</center></H3>
-       <br>
-       <form action="/rio/html/nishu.html">
-        <center><input type="text" placeholder="email"></center>
-        <center><input type="password" placeholder="password"</center>
-        <br>
-        <input type="submit" placeholder="sign up">
-        <br>
-        <br>
-        <p><h3>for contact us:</h3> </p>
-        <section>
-            Email: sharmajagdish292@gmail.com    </section>
-            <section> Mobile NO: 9518263914</section>
-            <section> and </section>
-            <section> Meet us at  
-            </section>
-            <section> Shastri Nagar Gali no 3 Bahadurgarh Haryana.</section>
-            <br>
-            <br>
-            <h4> © NSGAMER.ALL RIGHT RESERVED.</h4>
-       </form>
-    </main>
+  <h1>🐍 Snake Game</h1>
+  <div id="scoreBoard">Score: <span id="score">0</span> | Speed: <span id="speed">1x</span></div>
+  <canvas id="game" width="400" height="400"></canvas>
+  <button id="restart">Restart</button>
+
+  <script>
+    const canvas = document.getElementById("game");
+    const ctx = canvas.getContext("2d");
+    const scoreDisplay = document.getElementById("score");
+    const speedDisplay = document.getElementById("speed");
+    const restartBtn = document.getElementById("restart");
+
+    const box = 20;
+    let snake = [{ x: 200, y: 200 }];
+    let direction = "RIGHT";
+    let food = randomFood();
+    let score = 0;
+    let speed = 100;
+    let level = 1;
+    let game;
+
+    function randomFood() {
+      return {
+        x: Math.floor(Math.random() * (canvas.width / box)) * box,
+        y: Math.floor(Math.random() * (canvas.height / box)) * box
+      };
+    }
+
+    document.addEventListener("keydown", changeDirection);
+
+    function changeDirection(event) {
+      const key = event.keyCode;
+      if (key === 37 && direction !== "RIGHT") direction = "LEFT";
+      if (key === 38 && direction !== "DOWN") direction = "UP";
+      if (key === 39 && direction !== "LEFT") direction = "RIGHT";
+      if (key === 40 && direction !== "UP") direction = "DOWN";
+    }
+
+    function drawGame() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Food color changes by level
+      ctx.fillStyle = level % 2 === 0 ? "#ff0055" : "#00ffcc";
+      ctx.fillRect(food.x, food.y, box, box);
+
+      // Draw snake
+      for (let i = 0; i < snake.length; i++) {
+        ctx.fillStyle = i === 0 ? "#00ffcc" : "#0099ff";
+        ctx.shadowBlur = 10;
+        ctx.shadowColor = "#00ffcc";
+        ctx.fillRect(snake[i].x, snake[i].y, box, box);
+      }
+
+      let snakeX = snake[0].x;
+      let snakeY = snake[0].y;
+
+      if (direction === "LEFT") snakeX -= box;
+      if (direction === "UP") snakeY -= box;
+      if (direction === "RIGHT") snakeX += box;
+      if (direction === "DOWN") snakeY += box;
+
+      // Eat food
+      if (snakeX === food.x && snakeY === food.y) {
+        score++;
+        scoreDisplay.textContent = score;
+        food = randomFood();
+
+        // Increase speed every 5 points
+        if (score % 5 === 0 && speed > 50) {
+          speed -= 10;
+          level++;
+          speedDisplay.textContent = `${level}x`;
+          clearInterval(game);
+          game = setInterval(drawGame, speed);
+          canvas.style.borderColor = level % 2 === 0 ? "#ff0055" : "#00ffcc";
+          document.body.style.background = level % 2 === 0
+            ? "radial-gradient(circle at top left, #43114a, #2b0033, #000)"
+            : "radial-gradient(circle at top left, #0f2027, #203a43, #2c5364)";
+        }
+      } else {
+        snake.pop();
+      }
+
+      const newHead = { x: snakeX, y: snakeY };
+
+      // Game Over Conditions
+      if (
+        snakeX < 0 ||
+        snakeY < 0 ||
+        snakeX >= canvas.width ||
+        snakeY >= canvas.height ||
+        collision(newHead, snake)
+      ) {
+        clearInterval(game);
+        alert("💀 Game Over! Your Score: " + score);
+      }
+
+      snake.unshift(newHead);
+    }
+
+    function collision(head, array) {
+      for (let i = 0; i < array.length; i++) {
+        if (head.x === array[i].x && head.y === array[i].y) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    restartBtn.addEventListener("click", () => {
+      clearInterval(game);
+      snake = [{ x: 200, y: 200 }];
+      direction = "RIGHT";
+      score = 0;
+      level = 1;
+      speed = 100;
+      scoreDisplay.textContent = 0;
+      speedDisplay.textContent = "1x";
+      food = randomFood();
+      game = setInterval(drawGame, speed);
+      canvas.style.borderColor = "#00ffcc";
+      document.body.style.background = "radial-gradient(circle at top left, #0f2027, #203a43, #2c5364)";
+    });
+
+    game = setInterval(drawGame, speed);
+  </script>
 </body>
-</html> 
+</html>
