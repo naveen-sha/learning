@@ -802,8 +802,18 @@ let filteredmarks =marks.filter((fil)=>{
 })
 console.log(filteredmarks);
 */
+let text = prompt("Enter any word or string:");
+function isPalindrome(str) {
+    str = str.toLowerCase();
+    let reversed = str.split("").reverse().join("");
+    return str === reversed;
+}
 
-
+if (isPalindrome(text)) {
+    alert("This is a palindrome");
+} else {
+    alert("This is NOT a palindrome");
+}
 
 
 
