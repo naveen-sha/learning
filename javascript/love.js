@@ -1,6 +1,6 @@
 // classes && default parameters in function ..
 // class --> its just a dabba in one box class ki state/property the second one behaviour/functionality..
-class human {
+/* class human {
     // properties...
     name = "nikku";// public mark .
     #ht =80;// private not accsses outside the class.
@@ -8,9 +8,9 @@ class human {
     age ;
     class ="12th";
     // constructor its use  for inserting the value 
-    constructor(newage,newwt){
+    constructor(newage,newweight){
         this.age=newage;
-        this.wt=newage;
+        this.wt=newweight;
     }
     // behaviour...
     walking(){
@@ -34,6 +34,10 @@ class human {
 }
 let obj =new human(17,66);
  console.log(obj.fetchht);
-obj.walking();
+obj.walking();*/ 
 
-
+// default parameters...
+function sayname (myname="naveen",sirname=myname.toUpperCase()){
+    console.log("my name is :",myname," ", sirname);
+}
+sayname();
