@@ -41,3 +41,5 @@ function sayname (myname="naveen",sirname=myname.toUpperCase()){
     console.log("my name is :",myname," ", sirname);
 }
 sayname();
+console.log(sayname(myname))
+
