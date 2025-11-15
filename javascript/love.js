@@ -37,9 +37,58 @@ let obj =new human(17,66);
 obj.walking();*/ 
 
 // default parameters...
-function sayname (myname="naveen",sirname=myname.toUpperCase()){
+// it allow to use function with default parameters..
+/* function sayname (myname="naveen",sirname=myname.toUpperCase()){
     console.log("my name is :",myname," ", sirname);
 }
 sayname();
-console.log(sayname(myname))
+
+
+*/
+// with objects..
+/* function solve(value={age:17,wt:66,ht:"175cm"}){
+    console.log("hello ji",value)
+
+}
+solve();*/
+// we also insert an array in this ....
+/* function solve(value=["nikku","sharma","vlogs"]){
+    console.log("hello ji",value)
+
+}
+solve();*/ 
+/* function solve(value="nikku"){
+    console.log("hello ji",value)
+
+}
+solve(undefined);*/
+//  defaut parameters with function:
+/* let getage= ()=>{
+    return 175;
+
+}
+let utility=(naam="nikku",age=getage())=>{
+    console.log(naam," ",age);
+
+}
+utility();*/ 
+
+// in built obejcts...............(math)
+/* console.log("nikku");
+console.log(Math.PI);
+console.log(Math.max(3,5,7,9,56,0,8,6,5,));
+console.log(Math.atan(10));
+console.log(Math.round(1.5));
+console.log(Math.ceil(4.1));
+console.log(Math.sqrt(5));
+console.log(Math.pow(2,10))*/
+// in-built object ........................... (date)
+/* let current=new Date();
+let date=new Date("april 23 2008 05:00");
+let newdate=new Date(2007,3,22,17);
+console.log(newdate.setFullYear(2008));
+console.log(newdate);
+*/
+
+
 
