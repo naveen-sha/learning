@@ -1,1 +1,1 @@
-let box=get
+let box=getelementbytid("box");
