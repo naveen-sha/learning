@@ -2,7 +2,8 @@
   const products = [
     { id: 1, name: "Laptop", price: 50000 },
     { id: 2, name: "Phone", price: 20000 },
-    { id: 3, name: "Headphones", price: 2000 }
+    { id: 3, name: "Headphones", price: 2000 },
+    { id: 4, name: "iphone", price: 149000 }
 ];
 
 let cart = [];
@@ -17,7 +18,7 @@ function addToCart(productId) {
 
     const cartItem = cart.find(item => item.id === productId);
     if (cartItem) {
-        cartItem.quantity += 1;
+        cartItem.quantity++;
     } else {
         cart.push({ ...product, quantity: 1 });
     }
