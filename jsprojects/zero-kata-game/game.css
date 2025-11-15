@@ -1,0 +1,33 @@
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.box{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    height: 300px;
+    width: 300px;
+    margin-left: 223px;
+    
+
+
+
+}
