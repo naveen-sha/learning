@@ -89,6 +89,69 @@ let newdate=new Date(2007,3,22,17);
 console.log(newdate.setFullYear(2008));
 console.log(newdate);
 */
+// lecture no. : 48
+// object cloning && garbage collector..
 
+// dynamic in nature  objects(changing a property between its runtime)
+/* let obj={
+    age:17,
+    wt:66,
+    ht:175
 
+};
+console.log(obj);
+obj.color="red";
+console.log(obj);
 
+*/
+// object cloning......
+// with spread operator..
+/* let src={
+    age:17,
+    wt:66,
+    ht:175
+};
+// let dest={...src};
+let dest=src;
+src.age=90;
+console.log("src:",src)
+console.log("dest:",dest);
+*/
+// cloning with assign..
+/* let src={
+    age:17,
+    wt:66,
+    ht:175
+};
+let src2={
+    value:101,
+    name:"nikku",
+    skill:"all rounder"
+};
+
+src.age=90;
+let dest =Object.assign({},src,src2);
+console.log("src:",src)
+console.log("dest:",dest);
+*/ 
+// cloning whith iteratrion....
+/* let src={
+    age:17,
+    wt:66,
+    ht:175
+};
+let dest={};
+for(let key in src){
+    let newkey=key;
+    let newvalue =src[key];
+    // inserting newkey and value in dest and create a clone 
+    dest[newkey]=newvalue;
+};
+src.age=90;
+console.log("src:",src)
+console.log("dest:",dest);
+*/
+// garbage collector......
+// its manage memory leaks..
+// so that memory which no longer in use can be freed by useing this tool called garbage collector..
+// memory leaks ki jo memory free honi chiye thi vo nhi hain...
