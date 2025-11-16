@@ -1,11 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 .welcome{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 .name{
     display: flex;
@@ -26,8 +28,4 @@
     height: 300px;
     width: 300px;
     margin-left: 600px;
-    
-
-
-
 }
