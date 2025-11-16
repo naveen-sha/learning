@@ -105,7 +105,7 @@ console.log(obj);
 
 */
 // object cloning......
-// with spread operator..
+// with spread operator..{...src}
 /* let src={
     age:17,
     wt:66,
@@ -117,7 +117,7 @@ src.age=90;
 console.log("src:",src)
 console.log("dest:",dest);
 */
-// cloning with assign..
+// cloning with assign..let dest =Object.assign({},src,src2);
 /* let src={
     age:17,
     wt:66,
@@ -152,6 +152,51 @@ console.log("src:",src)
 console.log("dest:",dest);
 */
 // garbage collector......
-// its manage memory leaks..
-// so that memory which no longer in use can be freed by useing this tool called garbage collector..
+// so that memory which no longer in use can be freed by using this tool called garbage collector..
 // memory leaks ki jo memory free honi chiye thi vo nhi hain...
+// its manage memory leaks..
+
+
+
+// lecture no.(50) ..............error handling in javascript
+// error is just and event which empact or disturbed normal flow of execution of your code in called error..
+// type of error-->
+// 1. syntex error/compile time error 2.refrence error/runtime error
+// handling
+// try -catch block..
+ /* try{
+    console.log("try block starts here");
+    // refrence error..
+    console.log(n);
+    console.log("try block end here");
+}
+catch(nikku){
+    // define karte h,what will i do with error.
+    // retry logic 
+    // fallback mechanism
+    // logging
+    // custom error
+    console.log("you are in catch block");
+    console.log("your error is here",nikku)
+
+}
+// finally block
+finally{
+    console.log("i will run everytime ,as i am finally block")
+}*/ 
+// throw is a keyword which is use create own custom error
+// like nikku error ,nishu error.
+/* try{
+    // refrence type
+    console.log(me);
+}
+catch(err){
+    throw new Error ("nangad phle declare t krle ");
+    
+}*/
+/* let errcode =100;
+if(errcode==100){
+    throw new Error("hatt nishu chapri nangad ma btaoga tn nangad phle dhang t syntex to likh le kare ga coding");
+}
+
+*/
