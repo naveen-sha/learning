@@ -1,4 +1,6 @@
-let box=document.getElementById("box");
-if (box==true){
-    console.log("you won this game ")
+let box=document.getElementsByClassName(".but");
+
+let box2=()=>{
+   
+
 }
